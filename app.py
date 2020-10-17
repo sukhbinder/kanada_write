@@ -7,7 +7,7 @@ from fill_in.deck_cards import Deck, Card
 eel.init("web")
 
 
-deckapp = Deck("kanadawrite.csv")
+deckapp = Deck(r"web/kanadawrite.csv")
 
 def selectwords(data):
     rdata = []
